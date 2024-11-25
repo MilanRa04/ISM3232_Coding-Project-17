@@ -8,7 +8,7 @@ const Gallery = () => {
   useEffect(() => {
     const fetchTours = async () => {
       try {
-        const response = await fetch("https://course-api.com/react-tours-project");
+        const response = await fetch("https://www.course-api.com/react-tours-project");
         if (!response.ok) throw new Error("Failed to fetch data");
         const data = await response.json();
         setTours(data);
