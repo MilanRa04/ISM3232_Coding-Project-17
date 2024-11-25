@@ -1,5 +1,7 @@
 import React from "react";
 import Gallery from "./gallery.jsx";
+import './App.css';
+
 
 function App() {
   return (
